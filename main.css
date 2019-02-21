@@ -1,0 +1,226 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+header{
+  height: 100vh;
+  
+}
+/* Tutaj menu główne z przyciskami */
+#conteine0__title{ 
+  text-align: center;
+  padding-top: 50px;
+}
+#conteine0__title p{ 
+  text-align: center;
+ 
+}
+
+p
+{
+  font-size: 40px;
+}
+
+.buttonheader{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+a{
+  text-decoration: none;
+}
+
+/* tu będzie popup */
+article{
+   height: 100vh;
+   /* Background pattern from Toptal Subtle Patterns */
+   background-image: url('brushed/brushed.png');
+}
+
+#article__container{
+  height: 100vh;
+  width: 100wh;
+  padding-top: 70px;
+}
+
+.popup{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+
+}
+i{
+  padding-top: 8px;
+  font-size: 2.5rem;
+  display:inline block;
+  margin-left: 220px;
+}
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+input{
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;  ;
+  -webkit-border-radius: 20px  ;
+  -moz-border-radius: 20px  ;
+  -ms-border-radius: 20px  ;
+  -o-border-radius: 20px  ;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+h1{
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+h2{
+  margin-top: 15px;
+  font-size: 2rem;
+  color: gray
+}
+
+/* tu będzie formularz */
+main {
+  height: 100vh;
+  background-image: url('subtle-patterns/full-bloom/full-bloom.png');
+}
+#box{
+  width: 100vw;
+  height: 100vh;
+  padding-top: 60px;
+}
+#container {
+  width: 80%;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.panel {
+  height: 400px;
+  text-align: center;
+  flex: 1;
+}
+
+.panel:nth-child(1) {
+  background-color: green;
+  padding-top: 50px;
+}
+
+.panel:nth-child(2) {
+  background-color: yellow;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b8/Mug_of_Tea.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* tu będą przyciski */
+nav {
+   height: 100vh;
+   background-image: url("img/dark-honeycomb.png");
+}
+
+.nav__container{
+  height: 100vh;
+  width: 100wh;
+  padding-top: 70px;
+  display:flex;
+}
+
+.container1{
+  width: 95vh;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-wrap: wrap;
+  
+
+}
+.button1, .button2, .button3, .button4, .button5, .button6{
+ width: 190px;
+ height: 80px;
+
+ border-radius: 20px;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ -ms-border-radius: 20px;
+ -o-border-radius: 20px;
+ margin-top: 20px;
+ margin-left: 10px;
+ text-align: center;
+ padding-top: 25px;
+ font-size: 20px;
+ color: white;
+}
+
+.button1{
+  background: linear-gradient(to right, #a0c7c8, #3ca8c8);
+  box-shadow: 3px 3px 5px 6px #6996a3;
+}
+.button2{
+  background: linear-gradient(to right, #98b7df,#0630a5);
+  box-shadow: 3px 3px 5px 6px #6996a3;
+}
+.button3{
+  background: linear-gradient(to right, #9b92e7, #19034d);
+  box-shadow: 3px 3px 5px 6px #6996a3;
+}
+
+.button4{
+  background: linear-gradient(to right, #ceb4a0, #16d620);
+  box-shadow: 3px 3px 5px 6px #6996a3;
+}
+.button5{
+  background: linear-gradient(to right, #e79797,#a50606);
+  box-shadow: 3px 3px 5px 6px #6996a3;
+}
+.button6{
+  background: linear-gradient(to right, #d1a3da, #e40ac7);
+  box-shadow: 5px 3px 5px 6px #6996a3;
+}
+
+.title{
+  padding-top: 80px;
+  text-align: center;
+  font-size: 50px;
+}
+.title h1{
+  font-size: 80px;
+}
+.title h2{
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.photo{
+  margin-top: 50px;
+  width:60px;
+  height:60px;
+  margin-left: 1000px;
+}
+.photo img{
+  width: 80px;
+  height: 80px;
+  
+}
